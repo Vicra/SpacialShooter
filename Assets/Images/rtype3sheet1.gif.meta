@@ -1,0 +1,2476 @@
+fileFormatVersion: 2
+guid: ed05952b60e9c6a4fb17344ff6820fc7
+timeCreated: 1445748013
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rtype3sheet1_0
+    21300002: rtype3sheet1_1
+    21300004: rtype3sheet1_2
+    21300006: rtype3sheet1_3
+    21300008: rtype3sheet1_4
+    21300010: rtype3sheet1_5
+    21300012: rtype3sheet1_6
+    21300014: rtype3sheet1_7
+    21300016: rtype3sheet1_8
+    21300018: rtype3sheet1_9
+    21300020: rtype3sheet1_10
+    21300022: rtype3sheet1_11
+    21300024: rtype3sheet1_12
+    21300026: rtype3sheet1_13
+    21300028: rtype3sheet1_14
+    21300030: rtype3sheet1_15
+    21300032: rtype3sheet1_16
+    21300034: rtype3sheet1_17
+    21300036: rtype3sheet1_18
+    21300038: rtype3sheet1_19
+    21300040: rtype3sheet1_20
+    21300042: rtype3sheet1_21
+    21300044: rtype3sheet1_22
+    21300046: rtype3sheet1_23
+    21300048: rtype3sheet1_24
+    21300050: rtype3sheet1_25
+    21300052: rtype3sheet1_26
+    21300054: rtype3sheet1_27
+    21300056: rtype3sheet1_28
+    21300058: rtype3sheet1_29
+    21300060: rtype3sheet1_30
+    21300062: rtype3sheet1_31
+    21300064: rtype3sheet1_32
+    21300066: rtype3sheet1_33
+    21300068: rtype3sheet1_34
+    21300070: rtype3sheet1_35
+    21300072: rtype3sheet1_36
+    21300074: rtype3sheet1_37
+    21300076: rtype3sheet1_38
+    21300078: rtype3sheet1_39
+    21300080: rtype3sheet1_40
+    21300082: rtype3sheet1_41
+    21300084: rtype3sheet1_42
+    21300086: rtype3sheet1_43
+    21300088: rtype3sheet1_44
+    21300090: rtype3sheet1_45
+    21300092: rtype3sheet1_46
+    21300094: rtype3sheet1_47
+    21300096: rtype3sheet1_48
+    21300098: rtype3sheet1_49
+    21300100: rtype3sheet1_50
+    21300102: rtype3sheet1_51
+    21300104: rtype3sheet1_52
+    21300106: rtype3sheet1_53
+    21300108: rtype3sheet1_54
+    21300110: rtype3sheet1_55
+    21300112: rtype3sheet1_56
+    21300114: rtype3sheet1_57
+    21300116: rtype3sheet1_58
+    21300118: rtype3sheet1_59
+    21300120: rtype3sheet1_60
+    21300122: rtype3sheet1_61
+    21300124: rtype3sheet1_62
+    21300126: rtype3sheet1_63
+    21300128: rtype3sheet1_64
+    21300130: rtype3sheet1_65
+    21300132: rtype3sheet1_66
+    21300134: rtype3sheet1_67
+    21300136: rtype3sheet1_68
+    21300138: rtype3sheet1_69
+    21300140: rtype3sheet1_70
+    21300142: rtype3sheet1_71
+    21300144: rtype3sheet1_72
+    21300146: rtype3sheet1_73
+    21300148: rtype3sheet1_74
+    21300150: rtype3sheet1_75
+    21300152: rtype3sheet1_76
+    21300154: rtype3sheet1_77
+    21300156: rtype3sheet1_78
+    21300158: rtype3sheet1_79
+    21300160: rtype3sheet1_80
+    21300162: rtype3sheet1_81
+    21300164: rtype3sheet1_82
+    21300166: rtype3sheet1_83
+    21300168: rtype3sheet1_84
+    21300170: rtype3sheet1_85
+    21300172: rtype3sheet1_86
+    21300174: rtype3sheet1_87
+    21300176: rtype3sheet1_88
+    21300178: rtype3sheet1_89
+    21300180: rtype3sheet1_90
+    21300182: rtype3sheet1_91
+    21300184: rtype3sheet1_92
+    21300186: rtype3sheet1_93
+    21300188: rtype3sheet1_94
+    21300190: rtype3sheet1_95
+    21300192: rtype3sheet1_96
+    21300194: rtype3sheet1_97
+    21300196: rtype3sheet1_98
+    21300198: rtype3sheet1_99
+    21300200: rtype3sheet1_100
+    21300202: rtype3sheet1_101
+    21300204: rtype3sheet1_102
+    21300206: rtype3sheet1_103
+    21300208: rtype3sheet1_104
+    21300210: rtype3sheet1_105
+    21300212: rtype3sheet1_106
+    21300214: rtype3sheet1_107
+    21300216: rtype3sheet1_108
+    21300218: rtype3sheet1_109
+    21300220: rtype3sheet1_110
+    21300222: rtype3sheet1_111
+    21300224: rtype3sheet1_112
+    21300226: rtype3sheet1_113
+    21300228: rtype3sheet1_114
+    21300230: rtype3sheet1_115
+    21300232: rtype3sheet1_116
+    21300234: rtype3sheet1_117
+    21300236: rtype3sheet1_118
+    21300238: rtype3sheet1_119
+    21300240: rtype3sheet1_120
+    21300242: rtype3sheet1_121
+    21300244: rtype3sheet1_122
+    21300246: rtype3sheet1_123
+    21300248: rtype3sheet1_124
+    21300250: rtype3sheet1_125
+    21300252: rtype3sheet1_126
+    21300254: rtype3sheet1_127
+    21300256: rtype3sheet1_128
+    21300258: rtype3sheet1_129
+    21300260: rtype3sheet1_130
+    21300262: rtype3sheet1_131
+    21300264: rtype3sheet1_132
+    21300266: rtype3sheet1_133
+    21300268: rtype3sheet1_134
+    21300270: rtype3sheet1_135
+    21300272: rtype3sheet1_136
+    21300274: rtype3sheet1_137
+    21300276: rtype3sheet1_138
+    21300278: rtype3sheet1_139
+    21300280: rtype3sheet1_140
+    21300282: rtype3sheet1_141
+    21300284: rtype3sheet1_142
+    21300286: rtype3sheet1_143
+    21300288: rtype3sheet1_144
+    21300290: rtype3sheet1_145
+    21300292: rtype3sheet1_146
+    21300294: rtype3sheet1_147
+    21300296: rtype3sheet1_148
+    21300298: rtype3sheet1_149
+    21300300: rtype3sheet1_150
+    21300302: rtype3sheet1_151
+    21300304: rtype3sheet1_152
+    21300306: rtype3sheet1_153
+    21300308: rtype3sheet1_154
+    21300310: rtype3sheet1_155
+    21300312: rtype3sheet1_156
+    21300314: rtype3sheet1_157
+    21300316: rtype3sheet1_158
+    21300318: rtype3sheet1_159
+    21300320: rtype3sheet1_160
+    21300322: rtype3sheet1_161
+    21300324: rtype3sheet1_162
+    21300326: rtype3sheet1_163
+    21300328: rtype3sheet1_164
+    21300330: rtype3sheet1_165
+    21300332: rtype3sheet1_166
+    21300334: rtype3sheet1_167
+    21300336: rtype3sheet1_168
+    21300338: rtype3sheet1_169
+    21300340: rtype3sheet1_170
+    21300342: rtype3sheet1_171
+    21300344: rtype3sheet1_172
+    21300346: rtype3sheet1_173
+    21300348: rtype3sheet1_174
+    21300350: rtype3sheet1_175
+    21300352: rtype3sheet1_176
+    21300354: rtype3sheet1_177
+    21300356: rtype3sheet1_178
+    21300358: rtype3sheet1_179
+    21300360: rtype3sheet1_180
+    21300362: rtype3sheet1_181
+    21300364: rtype3sheet1_182
+    21300366: rtype3sheet1_183
+    21300368: rtype3sheet1_184
+    21300370: rtype3sheet1_185
+    21300372: rtype3sheet1_186
+    21300374: rtype3sheet1_187
+    21300376: rtype3sheet1_188
+    21300378: rtype3sheet1_189
+    21300380: rtype3sheet1_190
+    21300382: rtype3sheet1_191
+    21300384: rtype3sheet1_192
+    21300386: rtype3sheet1_193
+    21300388: rtype3sheet1_194
+    21300390: rtype3sheet1_195
+    21300392: rtype3sheet1_196
+    21300394: rtype3sheet1_197
+    21300396: rtype3sheet1_198
+    21300398: rtype3sheet1_199
+    21300400: rtype3sheet1_200
+    21300402: rtype3sheet1_201
+    21300404: rtype3sheet1_202
+    21300406: rtype3sheet1_203
+    21300408: rtype3sheet1_204
+    21300410: rtype3sheet1_205
+    21300412: rtype3sheet1_206
+    21300414: rtype3sheet1_207
+    21300416: rtype3sheet1_208
+    21300418: rtype3sheet1_209
+    21300420: rtype3sheet1_210
+    21300422: rtype3sheet1_211
+    21300424: rtype3sheet1_212
+    21300426: rtype3sheet1_213
+    21300428: rtype3sheet1_214
+    21300430: rtype3sheet1_215
+    21300432: rtype3sheet1_216
+    21300434: rtype3sheet1_217
+    21300436: rtype3sheet1_218
+    21300438: rtype3sheet1_219
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rtype3sheet1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 403
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 403
+        width: 74
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 402
+        width: 72
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 401
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 400
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 400
+        width: 90
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 401
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 402
+        width: 72
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 403
+        width: 74
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 403
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 364
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 363
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 363
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 362
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 361
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_15
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 361
+        width: 72
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_16
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 361
+        width: 72
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_17
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 361
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 362
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_19
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 363
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 363
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_21
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 364
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 332
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_23
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 332
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_24
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 332
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 332
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_26
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 332
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 331
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 331
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 331
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_30
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 331
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_31
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 332
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 332
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_33
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 332
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_34
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 332
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_35
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 332
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_39
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 306
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_40
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 306
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_41
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 306
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_42
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 305
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_43
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 305
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_44
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 306
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_45
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 306
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_46
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 306
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_47
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_48
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 306
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_50
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 282
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_51
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 282
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 282
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_53
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 283
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_54
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 283
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 283
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_56
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 283
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_57
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 283
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_58
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 283
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_59
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 283
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_60
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 283
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_61
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 283
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_62
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 283
+        width: 39
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_63
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 282
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_64
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 282
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_65
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 282
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_66
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 262
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_67
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 262
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 262
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_69
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 263
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 263
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_71
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 263
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_72
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 263
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_73
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 263
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_74
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 262
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_75
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 262
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_76
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 263
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_77
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 263
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_78
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 263
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_79
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 263
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_80
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 263
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_81
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 262
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_82
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 262
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_83
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 262
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_84
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_85
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_86
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 242
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 242
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_88
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 242
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_89
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 242
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_90
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_91
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 242
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_92
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 242
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_93
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 242
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_94
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 242
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_95
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_96
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 242
+        width: 41
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_97
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 242
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_98
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 242
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_99
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 242
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_100
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_101
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 242
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_102
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 222
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_103
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 222
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 222
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_105
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 222
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_106
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 222
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_107
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 222
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_108
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 222
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_109
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 222
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_110
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 222
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_111
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 222
+        width: 45
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_112
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 222
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_113
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 222
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_114
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 222
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_115
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 222
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_116
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 222
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_117
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 222
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_118
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 222
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_119
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 222
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_120
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 204
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_121
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 204
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_122
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 204
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_123
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 204
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_124
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 204
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_125
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 204
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_126
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 203
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_127
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 203
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_128
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 203
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_129
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 203
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_130
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 203
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_131
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 203
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_132
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 204
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_133
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 204
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_134
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 204
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_135
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 204
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_136
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 204
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_137
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 204
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_138
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_139
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 184
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_140
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 184
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_141
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 184
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_142
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 184
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_143
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 184
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_144
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 184
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_145
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 184
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_146
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 184
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_147
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 184
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_148
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 184
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_149
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 184
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_150
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 184
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_151
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 184
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_152
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 184
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 184
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_154
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 184
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_155
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 184
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_156
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 184
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 184
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_158
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 165
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_159
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 165
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_160
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 165
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_161
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 165
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_162
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 165
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_163
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 165
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_164
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 165
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_165
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 165
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_166
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 75
+        width: 116
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_167
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 129
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_168
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 131
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_169
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 132
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_170
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 133
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_171
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 133
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_172
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 75
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_173
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 132
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_174
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 76
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_175
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 129
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_176
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 119
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_177
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 74
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_178
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 117
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_179
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 119
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_180
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 82
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_181
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 82
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_182
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_183
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_184
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 45
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_185
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_186
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_187
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_188
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_189
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 46
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_190
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 45
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_191
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 45
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_192
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_193
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_194
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_195
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_196
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 45
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_197
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 45
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_198
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 46
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_199
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_200
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_201
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_202
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 47
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_203
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 45
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_204
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_205
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 45
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_206
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 4
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_207
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_208
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 7
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_209
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_210
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 10
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_211
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 11
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_212
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_213
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 5
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_214
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 11
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_215
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 10
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_216
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 9
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_217
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 7
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_218
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 6
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: rtype3sheet1_219
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 4
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

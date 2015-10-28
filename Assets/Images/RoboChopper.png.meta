@@ -1,0 +1,1112 @@
+fileFormatVersion: 2
+guid: ca41b48cfb879f64f993cfd3787bf1d7
+timeCreated: 1445744175
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: RoboChopper_0
+    21300002: RoboChopper_1
+    21300004: RoboChopper_2
+    21300006: RoboChopper_3
+    21300008: RoboChopper_4
+    21300010: RoboChopper_5
+    21300012: RoboChopper_6
+    21300014: RoboChopper_7
+    21300016: RoboChopper_8
+    21300018: RoboChopper_9
+    21300020: RoboChopper_10
+    21300022: RoboChopper_11
+    21300024: RoboChopper_12
+    21300026: RoboChopper_13
+    21300028: RoboChopper_14
+    21300030: RoboChopper_15
+    21300032: RoboChopper_16
+    21300034: RoboChopper_17
+    21300036: RoboChopper_18
+    21300038: RoboChopper_19
+    21300040: RoboChopper_20
+    21300042: RoboChopper_21
+    21300044: RoboChopper_22
+    21300046: RoboChopper_23
+    21300048: RoboChopper_24
+    21300050: RoboChopper_25
+    21300052: RoboChopper_26
+    21300054: RoboChopper_27
+    21300056: RoboChopper_28
+    21300058: RoboChopper_29
+    21300060: RoboChopper_30
+    21300062: RoboChopper_31
+    21300064: RoboChopper_32
+    21300066: RoboChopper_33
+    21300068: RoboChopper_34
+    21300070: RoboChopper_35
+    21300072: RoboChopper_36
+    21300074: RoboChopper_37
+    21300076: RoboChopper_38
+    21300078: RoboChopper_39
+    21300080: RoboChopper_40
+    21300082: RoboChopper_41
+    21300084: RoboChopper_42
+    21300086: RoboChopper_43
+    21300088: RoboChopper_44
+    21300090: RoboChopper_45
+    21300092: RoboChopper_46
+    21300094: RoboChopper_47
+    21300096: RoboChopper_48
+    21300098: RoboChopper_49
+    21300100: RoboChopper_50
+    21300102: RoboChopper_51
+    21300104: RoboChopper_52
+    21300106: RoboChopper_53
+    21300108: RoboChopper_54
+    21300110: RoboChopper_55
+    21300112: RoboChopper_56
+    21300114: RoboChopper_57
+    21300116: RoboChopper_58
+    21300118: RoboChopper_59
+    21300120: RoboChopper_60
+    21300122: RoboChopper_61
+    21300124: RoboChopper_62
+    21300126: RoboChopper_63
+    21300128: RoboChopper_64
+    21300130: RoboChopper_65
+    21300132: RoboChopper_66
+    21300134: RoboChopper_67
+    21300136: RoboChopper_68
+    21300138: RoboChopper_69
+    21300140: RoboChopper_70
+    21300142: RoboChopper_71
+    21300144: RoboChopper_72
+    21300146: RoboChopper_73
+    21300148: RoboChopper_74
+    21300150: RoboChopper_75
+    21300152: RoboChopper_76
+    21300154: RoboChopper_77
+    21300156: RoboChopper_78
+    21300158: RoboChopper_79
+    21300160: RoboChopper_80
+    21300162: RoboChopper_81
+    21300164: RoboChopper_82
+    21300166: RoboChopper_83
+    21300168: RoboChopper_84
+    21300170: RoboChopper_85
+    21300172: RoboChopper_86
+    21300174: RoboChopper_87
+    21300176: RoboChopper_88
+    21300178: RoboChopper_89
+    21300180: RoboChopper_90
+    21300182: RoboChopper_91
+    21300184: RoboChopper_92
+    21300186: RoboChopper_93
+    21300188: RoboChopper_94
+    21300190: RoboChopper_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: RoboChopper_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 449
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 450
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 451
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 449
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 450
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 451
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 449
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 450
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_8
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 451
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_9
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 449
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 450
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 451
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 385
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 386
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 387
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 385
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 386
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_17
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 387
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 385
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_19
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 386
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 387
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_21
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 385
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_22
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 386
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_23
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 387
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 322
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 323
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_28
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 322
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_29
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 323
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_31
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 322
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 323
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 321
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_34
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 322
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_35
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 323
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 258
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_37
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 259
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 260
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_39
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 258
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_40
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 259
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_41
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 260
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 258
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_43
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 259
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_44
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 260
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_45
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 258
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_46
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 259
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_47
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 260
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 193
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 194
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_50
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 195
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_51
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 193
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 194
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_53
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 195
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_54
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 193
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_55
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 194
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_56
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 195
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_57
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 193
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_58
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 194
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_59
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 195
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_60
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 129
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_61
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 130
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_62
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_63
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 129
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_64
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 130
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_65
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 131
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_66
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 129
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_67
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 130
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_68
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 131
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_69
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 129
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_70
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 130
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_71
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 131
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_72
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 65
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_73
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 66
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_74
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 67
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_75
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 65
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_76
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 66
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_77
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 67
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_78
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 65
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_79
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 66
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_80
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 67
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_81
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 65
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_82
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 66
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_83
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 67
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_85
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_86
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 4
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_87
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_88
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 4
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_90
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 2
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_91
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 3
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_92
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 4
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_93
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 2
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_94
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: RoboChopper_95
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 4
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
