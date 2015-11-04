@@ -30,6 +30,7 @@ public class PlayerController : MonoBehaviour {
             nextFire = Time.time + fireRate;
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
         }
+
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             // Get movement of the finger since last frame
@@ -40,18 +41,17 @@ public class PlayerController : MonoBehaviour {
         }
         
 	}
-    void FixedUpdate()
+    void FixedUpdate()//alksd
     {
+        
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-
-        
         
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
-        rb.velocity = movement*speed;
+        rb.velocity = movement * 6;
         rb.position = new Vector2(
-            Mathf.Clamp(rb.position.x,boundary.xMin,boundary.xMax ),
-            Mathf.Clamp(rb.position.y,boundary.yMin,boundary.yMax )
+            Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
+            Mathf.Clamp(rb.position.y, boundary.yMin, boundary.yMax)
         );
     }
 }

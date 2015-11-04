@@ -2,14 +2,15 @@
 using System.Collections;
 
 public class DestroyByContact : MonoBehaviour {
-
-    void OnTriggerEnter(Collider other)
+    public GameObject explosion;
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.name);
+        
         if (other.tag == "Boundary")
         {
             return;
         }
+        Instantiate(explosion, transform.position, transform.rotation);
         Destroy(other.gameObject);
         Destroy(gameObject);
     }

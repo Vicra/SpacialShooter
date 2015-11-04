@@ -6,7 +6,7 @@ public class Mover : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         gameObject.GetComponent<Rigidbody2D>().velocity = transform.right * speed;
-        Destroy(gameObject,1.7f);
+        //Destroy(gameObject,1.7f);
 	}
 	
 	
