@@ -15,20 +15,51 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rb;
 
     public GameObject shot;
+    public GameObject upShot;
+    public GameObject downShot;
     public Transform shotSpawn;
+    private AudioSource audioSource;
 
     public float fireRate;
     private float nextFire;
+
+    int fireType;
 	void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        //fireType = Random.Range(0, 2);
+        fireType = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        Vector3 shot1Position = new Vector3(shotSpawn.position.x, shotSpawn.position.y + 0.25f, shotSpawn.position.z);
+        Vector3 shot2Position = new Vector3(shotSpawn.position.x, shotSpawn.position.y - 0.25f, shotSpawn.position.z);
+        Vector3 shotUpPosition= new Vector3(shotSpawn.position.x, shotSpawn.position.y + 0.3f, shotSpawn.position.z);
+        Vector3 shotDownPosition = new Vector3(shotSpawn.position.x, shotSpawn.position.y - 0.3f, shotSpawn.position.z);
+
+
         if (Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            if (fireType == 0)
+            {
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+            }
+            else if (fireType == 1)
+            {
+                Instantiate(shot, shot1Position, shotSpawn.rotation);
+                Instantiate(shot, shot2Position, shotSpawn.rotation);
+            }
+            else if (fireType == 2)
+            {
+
+                Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
+                Instantiate(shot, shot1Position, shotSpawn.rotation);
+                Instantiate(shot, shot2Position, shotSpawn.rotation);
+                Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
+            }
+            
         }
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
@@ -53,5 +84,14 @@ public class PlayerController : MonoBehaviour {
             Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
             Mathf.Clamp(rb.position.y, boundary.yMin, boundary.yMax)
         );
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Coin")
+        {
+            audioSource = GetComponent<AudioSource>();
+            audioSource.Play();
+        }
+        
     }
 }

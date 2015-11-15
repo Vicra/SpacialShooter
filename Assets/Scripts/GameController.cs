@@ -12,9 +12,11 @@ public class GameController : MonoBehaviour {
     public float waveWait;
     private AudioSource audioSource;
 
-    public  Text scoreText;
+    public Text scoreText;
+    public Text coinsText;
     
     public int score;
+    public int coins;
     void Start()
     {
         
@@ -23,7 +25,7 @@ public class GameController : MonoBehaviour {
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
         score = 0;
-        UpdateScore();
+        UpdateData();
     }
     
     IEnumerator SpawnWaves()
@@ -43,10 +45,17 @@ public class GameController : MonoBehaviour {
     public void AddScore(int newScore)
     {
         score += newScore;
-        UpdateScore();
+        UpdateData();
     }
-    void UpdateScore()
+    public void AddCoins(int newCoins)
+    {
+        coins += newCoins;
+        UpdateData();
+    }
+    void UpdateData()
     {
         scoreText.text = "Score: " + score;
+        coinsText.text = "Coins: " + coins;
     }
+
 }

@@ -9,8 +9,10 @@ public class Mover : MonoBehaviour {
         gameObject.GetComponent<Rigidbody2D>().velocity = transform.right * speed;
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
-        //Destroy(gameObject,1.7f);
 	}
+    
+
+     
 	
 	
 }
