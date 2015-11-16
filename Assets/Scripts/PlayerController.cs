@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour {
     int fireType;
 	void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        //fireType = Random.Range(0, 2);
+
+        //I need to load here from the file, if he has purchased any shot to start with it
         fireType = 0;
 	}
 	
@@ -53,7 +54,12 @@ public class PlayerController : MonoBehaviour {
             }
             else if (fireType == 2)
             {
-
+                Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+                Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
+            }
+            else if (fireType == 3)
+            {
                 Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
                 Instantiate(shot, shot1Position, shotSpawn.rotation);
                 Instantiate(shot, shot2Position, shotSpawn.rotation);
@@ -93,5 +99,9 @@ public class PlayerController : MonoBehaviour {
             audioSource.Play();
         }
         
+    }
+    public void UpdateShot(int shotType)
+    {
+        fireType = shotType;
     }
 }

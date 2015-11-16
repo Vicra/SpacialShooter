@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System.IO;
+using System;
 
 public class GameController : MonoBehaviour {
 
@@ -14,13 +16,22 @@ public class GameController : MonoBehaviour {
 
     public Text scoreText;
     public Text coinsText;
-    
+    public Text gameOverText;
+
     public int score;
     public int coins;
+
+    private bool restart;
+    private bool gameOver;
+    private string fileName;
     void Start()
     {
-        
 
+        fileName = "coinCount.txt";
+        LoadFromFile();
+        gameOverText.text = "";
+        gameOver = false;
+        restart = true;
         StartCoroutine(SpawnWaves());
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
@@ -35,11 +46,17 @@ public class GameController : MonoBehaviour {
         {
             for (int i = 0; i < hazardCount; i++)
             {
-                Vector3 spawnPosition = new Vector3(spawnValues.x, Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
+                Vector3 spawnPosition = new Vector3(spawnValues.x, UnityEngine.Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
                 Instantiate(hazard, spawnPosition, transform.rotation);
                 yield return new WaitForSeconds(spawnWait);
             }
             yield return new WaitForSeconds(waveWait);
+            if (gameOver)
+            {
+                SaveToFile();
+                restart = true;
+                break;
+            }
         }
     }
     public void AddScore(int newScore)
@@ -57,5 +74,31 @@ public class GameController : MonoBehaviour {
         scoreText.text = "Score: " + score;
         coinsText.text = "Coins: " + coins;
     }
-
+    public void GameOver()
+    {
+        gameOverText.text = "Game Over!";
+        gameOver = true;
+    }
+    void Update()
+    {
+        if (restart)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Application.LoadLevel(Application.loadedLevel);
+            }
+        }
+    }
+    void SaveToFile()
+    {
+        StreamWriter sw = new StreamWriter(Application.dataPath + "/"+fileName,true);
+        sw.Write(coins.ToString());
+        sw.Close();
+    }
+    void LoadFromFile()
+    {
+        StreamReader sr = new StreamReader(Application.dataPath + "/" + fileName, true);
+        coins = Int32.Parse(sr.ReadLine()) ;
+        sr.Close();
+    }
 }

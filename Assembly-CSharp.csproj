@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\DestroyBoundary.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
      <Compile Include="Assets\Scripts\DestroyByTime.cs" />
+     <Compile Include="Assets\Scripts\DoubleShotsController.cs" />
      <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LoadOnClick.cs" />

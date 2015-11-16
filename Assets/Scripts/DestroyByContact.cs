@@ -7,6 +7,9 @@ public class DestroyByContact : MonoBehaviour {
     private GameController gameController;
     int randomCoins;
     public GameObject coin;
+    public GameObject doubleShot;
+    public GameObject tripleShot;
+    public GameObject fourShot;
     void Start()
     {
         randomCoins = Random.Range(0, 4);
@@ -23,8 +26,8 @@ public class DestroyByContact : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        
-        if (other.tag == "Boundary" )
+
+        if (other.tag == "Boundary" || other.tag == "Coin" || other.tag == "DoubleShot" || other.tag == "TripleShot" || other.tag == "FourShot")
         {
             return;
         }
@@ -32,7 +35,9 @@ public class DestroyByContact : MonoBehaviour {
         {
             Instantiate(coin, transform.position, transform.rotation);
         }
-
+        if(randomCoins == 1)
+            Instantiate(tripleShot, transform.position, transform.rotation);
+        
 
         Instantiate(explosion, transform.position, transform.rotation);
         gameController.AddScore(scoreValue);

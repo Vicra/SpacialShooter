@@ -6,6 +6,7 @@ public class CoinController : MonoBehaviour {
 	// Use this for initialization
     public int coinValue;
     private GameController gameController;
+    private PlayerController playerController;
     private int movement;
     public float speed;
     
@@ -19,17 +20,17 @@ public class CoinController : MonoBehaviour {
         movement = Random.Range(0, 3);
         Destroy(gameObject, 10);
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+        GameObject playerControllerObject = GameObject.FindWithTag("Player");
         if (gameControllerObject != null)
         {
             gameController = gameControllerObject.GetComponent<GameController>();
+            playerController = playerControllerObject.GetComponent<PlayerController>();
 
         }
         if (gameControllerObject == null)
         {
             Debug.Log("Cannot find gamee controller object");
         }
-        
-
 
 	}
 	
@@ -44,14 +45,27 @@ public class CoinController : MonoBehaviour {
 	}
     void OnTriggerEnter2D(Collider2D other)
     {
-
-        if (other.tag == "Boundary" || other.tag == "Shot")
+        // lo usan coins, y los upgrades
+        if (other.tag == "Boundary" || other.tag == "Shot" || other.tag =="Coin" || other.tag == "DoubleShot" || other.tag == "TripleShot" || other.tag =="FourShot")
         {
             return;
         }
+
+        if (gameObject.tag == "Coin")
+        {
+            gameController.AddCoins(coinValue);
+        }
         
+        if (other.tag == "Player")
+        {
+            if (gameObject.tag == "DoubleShot")
+                playerController.UpdateShot(1);
+            else if (gameObject.tag == "TripleShot")
+                playerController.UpdateShot(2);
+            else if (gameObject.tag == "FourShot")
+                playerController.UpdateShot(3);
+        }
         
-        gameController.AddCoins(coinValue);
         Destroy(gameObject);
     }
 }
