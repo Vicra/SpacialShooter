@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour {
     {
 
         fileName = "coinCount.txt";
-        LoadFromFile();
+        //LoadFromFile();
         gameOverText.text = "";
         gameOver = false;
         restart = true;
@@ -53,7 +53,7 @@ public class GameController : MonoBehaviour {
             yield return new WaitForSeconds(waveWait);
             if (gameOver)
             {
-                SaveToFile();
+                //SaveToFile();
                 restart = true;
                 break;
             }
@@ -89,16 +89,16 @@ public class GameController : MonoBehaviour {
             }
         }
     }
-    void SaveToFile()
-    {
-        StreamWriter sw = new StreamWriter(Application.dataPath + "/"+fileName,true);
-        sw.Write(coins.ToString());
-        sw.Close();
-    }
-    void LoadFromFile()
-    {
-        StreamReader sr = new StreamReader(Application.dataPath + "/" + fileName, true);
-        coins = Int32.Parse(sr.ReadLine()) ;
-        sr.Close();
-    }
+    //void SaveToFile()
+    //{
+    //    StreamWriter sw = new StreamWriter(Application.dataPath + "/"+fileName,true);
+    //    sw.Write(coins.ToString());
+    //    sw.Close();
+    //}
+    //void LoadFromFile()
+    //{
+    //    StreamReader sr = new StreamReader(Application.dataPath + "/" + fileName, true);
+    //    coins = Int32.Parse(sr.ReadLine()) ;
+    //    sr.Close();
+    //}
 }

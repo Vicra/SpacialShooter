@@ -7,16 +7,25 @@ public class DestroyByContact : MonoBehaviour {
     private GameController gameController;
     int randomCoins;
     public GameObject coin;
-    public GameObject doubleShot;
-    public GameObject tripleShot;
-    public GameObject fourShot;
+
+    
+
+    //new code
+    public GameObject[] upgrades; // shot upgrades, shield
+    private GameObject randomUpgrade;
+    private cameraShake camShake;
     void Start()
     {
+        //adding new code
+        randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
+
         randomCoins = Random.Range(0, 4);
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+        GameObject camShakeControllerObject = GameObject.FindWithTag("MainCamera");
         if (gameControllerObject != null)
         {
             gameController = gameControllerObject.GetComponent<GameController>();
+            camShake = camShakeControllerObject.GetComponent<cameraShake>();
 
         }
         if (gameControllerObject == null)
@@ -26,19 +35,25 @@ public class DestroyByContact : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-
+        
         if (other.tag == "Boundary" || other.tag == "Coin" || other.tag == "DoubleShot" || other.tag == "TripleShot" || other.tag == "FourShot")
         {
             return;
         }
+        camShake.Shake();   
         for (int i = 0; i < randomCoins; i++)
         {
             Instantiate(coin, transform.position, transform.rotation);
         }
         if(randomCoins == 1)
-            Instantiate(tripleShot, transform.position, transform.rotation);
-        
+            Instantiate(randomUpgrade, transform.position, transform.rotation);
 
+        if (other.tag == "Player")
+        {
+            gameController.gameOverText.text = "Game Over Press R to restart";
+            
+
+        }
         Instantiate(explosion, transform.position, transform.rotation);
         gameController.AddScore(scoreValue);
         Destroy(other.gameObject);

@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: f308b5d537031dc46841dc5ba0300045
+timeCreated: 1447717985
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spaceshipsprites_0
+    21300002: spaceshipsprites_1
+    21300004: spaceshipsprites_2
+    21300006: spaceshipsprites_3
+    21300008: spaceshipsprites_4
+    21300010: spaceshipsprites_5
+    21300012: spaceshipsprites_6
+    21300014: spaceshipsprites_7
+    21300016: spaceshipsprites_8
+    21300018: spaceshipsprites_9
+    21300020: spaceshipsprites_10
+    21300022: spaceshipsprites_11
+    21300024: spaceshipsprites_12
+    21300026: spaceshipsprites_13
+    21300028: spaceshipsprites_14
+    21300030: spaceshipsprites_15
+    21300032: spaceshipsprites_16
+    21300034: spaceshipsprites_17
+    21300036: spaceshipsprites_18
+    21300038: spaceshipsprites_19
+    21300040: spaceshipsprites_20
+    21300042: spaceshipsprites_21
+    21300044: spaceshipsprites_22
+    21300046: spaceshipsprites_23
+    21300048: spaceshipsprites_24
+    21300050: spaceshipsprites_25
+    21300052: spaceshipsprites_26
+    21300054: spaceshipsprites_27
+    21300056: spaceshipsprites_28
+    21300058: spaceshipsprites_29
+    21300060: spaceshipsprites_30
+    21300062: spaceshipsprites_31
+    21300064: spaceshipsprites_32
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spaceshipsprites_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 309
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 309
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 309
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 262
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 262
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 262
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 262
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 262
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 219
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 223
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 219
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 219
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 219
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_13
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 205
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 205
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 203
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 207
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 201
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 199
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 200
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 173
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_22
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 169
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_23
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 166
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 159
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 104
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_28
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 55
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_29
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 66
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_31
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 7
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: spaceshipsprites_32
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

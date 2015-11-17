@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour {
     public GameObject downShot;
     public Transform shotSpawn;
     private AudioSource audioSource;
+    public GameObject shield;
 
     public float fireRate;
     private float nextFire;
@@ -99,9 +100,15 @@ public class PlayerController : MonoBehaviour {
             audioSource.Play();
         }
         
+        
     }
     public void UpdateShot(int shotType)
     {
         fireType = shotType;
+    }
+
+    void AddShield()
+    {
+        //Instantiate(shield, transform.position, transform.rotation);
     }
 }

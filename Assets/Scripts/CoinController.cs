@@ -64,6 +64,8 @@ public class CoinController : MonoBehaviour {
                 playerController.UpdateShot(2);
             else if (gameObject.tag == "FourShot")
                 playerController.UpdateShot(3);
+            //else if (gameObject.tag == "FourShot")
+                //playerController.AddShield();
         }
         
         Destroy(gameObject);
