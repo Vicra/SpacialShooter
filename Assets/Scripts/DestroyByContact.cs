@@ -51,7 +51,7 @@ public class DestroyByContact : MonoBehaviour {
         if (other.tag == "Player")
         {
             gameController.gameOverText.text = "Game Over Press R to restart";
-            
+            gameController.GameOver();
 
         }
         Instantiate(explosion, transform.position, transform.rotation);

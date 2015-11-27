@@ -14,21 +14,28 @@ public class GameController : MonoBehaviour {
     public float waveWait;
     private AudioSource audioSource;
 
+    //**UI TEXT
     public Text scoreText;
     public Text coinsText;
     public Text gameOverText;
 
+    //**COUNTS
     public int score;
     public int coins;
 
+    //**GAME EVENTS
     private bool restart;
     private bool gameOver;
+
+    //**FILE
     private string fileName;
+    FileInfo file; 
     void Start()
     {
+        file  = new FileInfo(Application.dataPath + "\\" + "myFile.txt");
+       
+        Load();
 
-        fileName = "coinCount.txt";
-        //LoadFromFile();
         gameOverText.text = "";
         gameOver = false;
         restart = true;
@@ -76,8 +83,8 @@ public class GameController : MonoBehaviour {
     }
     public void GameOver()
     {
-        gameOverText.text = "Game Over!";
         gameOver = true;
+        Save();
     }
     void Update()
     {
@@ -89,16 +96,51 @@ public class GameController : MonoBehaviour {
             }
         }
     }
-    //void SaveToFile()
-    //{
-    //    StreamWriter sw = new StreamWriter(Application.dataPath + "/"+fileName,true);
-    //    sw.Write(coins.ToString());
-    //    sw.Close();
-    //}
-    //void LoadFromFile()
-    //{
-    //    StreamReader sr = new StreamReader(Application.dataPath + "/" + fileName, true);
-    //    coins = Int32.Parse(sr.ReadLine()) ;
-    //    sr.Close();
-    //}
+    
+    void Save()
+    {
+        try
+        {
+            StreamWriter writer;
+            if (!file.Exists)
+            {
+                writer = file.CreateText();
+            }
+            else
+            {
+                file.Delete();
+                writer = file.CreateText();
+            }
+            writer.WriteLine(coins.ToString());
+            writer.Close();
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
+        
+    }
+
+    void Load()
+    {
+        try
+        {
+            if (file.Exists)
+            {
+                StreamReader reader = File.OpenText(Application.dataPath + "\\" + "myFile.txt");
+                string coinCount = reader.ReadLine();
+                coins = Int32.Parse(coinCount);
+                reader.Close();
+            }
+            else
+            {
+                coins = 0;
+                Save();
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
+    }
 }

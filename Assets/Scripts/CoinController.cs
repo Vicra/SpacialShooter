@@ -21,7 +21,7 @@ public class CoinController : MonoBehaviour {
         Destroy(gameObject, 10);
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         GameObject playerControllerObject = GameObject.FindWithTag("Player");
-        if (gameControllerObject != null)
+        if (gameControllerObject != null && playerControllerObject != null)
         {
             gameController = gameControllerObject.GetComponent<GameController>();
             playerController = playerControllerObject.GetComponent<PlayerController>();
@@ -51,23 +51,25 @@ public class CoinController : MonoBehaviour {
             return;
         }
 
-        if (gameObject.tag == "Coin")
+        if (gameObject.tag == "Coin" && other.tag == "Player")
         {
-            gameController.AddCoins(coinValue);
+            gameController.AddCoins(coinValue); 
+            Destroy(gameObject);
         }
         
         if (other.tag == "Player")
         {
             if (gameObject.tag == "DoubleShot")
-                playerController.UpdateShot(1);
-            else if (gameObject.tag == "TripleShot")
                 playerController.UpdateShot(2);
-            else if (gameObject.tag == "FourShot")
+            else if (gameObject.tag == "TripleShot")
                 playerController.UpdateShot(3);
+            else if (gameObject.tag == "FourShot")
+                playerController.UpdateShot(4);
             //else if (gameObject.tag == "FourShot")
                 //playerController.AddShield();
+            Destroy(gameObject);
         }
         
-        Destroy(gameObject);
+        
     }
 }

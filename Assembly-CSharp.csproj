@@ -63,6 +63,8 @@
      <Compile Include="Assets\Scripts\Scroller.cs" />
      <Compile Include="Assets\Scripts\WreckingBall.cs" />
      <Compile Include="Assets\Scripts\cameraShake.cs" />
+     <None Include="Assets\myFile.txt" />
+     <None Include="Assets\shoot.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
