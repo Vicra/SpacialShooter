@@ -17,7 +17,7 @@ public class DestroyByContact : MonoBehaviour {
     void Start()
     {
         //adding new code
-        randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
+        
 
         randomCoins = Random.Range(0, 4);
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -46,7 +46,11 @@ public class DestroyByContact : MonoBehaviour {
             Instantiate(coin, transform.position, transform.rotation);
         }
         if(randomCoins == 1)
+        {
+            randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
             Instantiate(randomUpgrade, transform.position, transform.rotation);
+        }
+            
 
         if (other.tag == "Player")
         {

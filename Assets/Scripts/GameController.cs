@@ -6,7 +6,8 @@ using System;
 
 public class GameController : MonoBehaviour {
 
-    public GameObject hazard;
+    public GameObject[] hazards;
+    private GameObject hazard;
     public Vector3 spawnValues;
     public int hazardCount;
     public float spawnWait;
@@ -32,6 +33,7 @@ public class GameController : MonoBehaviour {
     FileInfo file; 
     void Start()
     {
+        hazard = hazards[UnityEngine.Random.Range(0,hazards.Length)];
         file  = new FileInfo(Application.dataPath + "\\" + "myFile.txt");
        
         Load();
@@ -51,10 +53,11 @@ public class GameController : MonoBehaviour {
         yield return new WaitForSeconds(startWait);
         while (true)
         {
+            hazard = hazards[UnityEngine.Random.Range(0, hazards.Length)];
             for (int i = 0; i < hazardCount; i++)
             {
                 Vector3 spawnPosition = new Vector3(spawnValues.x, UnityEngine.Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
-                //Instantiate(hazard, spawnPosition, transform.rotation);
+                Instantiate(hazard, spawnPosition, transform.rotation);
                 yield return new WaitForSeconds(spawnWait);
             }
             yield return new WaitForSeconds(waveWait);

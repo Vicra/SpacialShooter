@@ -10,11 +10,15 @@ public class PlatformController : MonoBehaviour {
     
     void Update()
     {
-        MoveLeft();
-        if(upPlatform.transform.position.y > 1.5)
-            MoveDown(upPlatform);
-        if (downPlatform.transform.position.y < -1.5)
-            MoveUp(downPlatform);
+        if (upPlatform != null)
+        {
+            MoveLeft();
+            if (upPlatform.transform.position.y > 1.5)
+                MoveDown(upPlatform);
+            if (downPlatform.transform.position.y < -1.5)
+                MoveUp(downPlatform);
+        }
+        
     }
     void MoveUp(GameObject platform)
     {
