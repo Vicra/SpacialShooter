@@ -11,7 +11,7 @@ public class Boundary
 }
 
 public class PlayerController : MonoBehaviour {
-    
+
     //**SHOTS GAMEOBJECTS
     public GameObject shot;
     public GameObject upShot;
@@ -27,7 +27,8 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody2D rigidBody;
     private AudioSource audioSource;
     public Transform shotSpawn;
-    
+    private PlayerHealth playerHealth;
+
 	//**LOGIC
     public float movementSpeed;
     public Boundary boundary;//area to keep ship inside camera
@@ -39,18 +40,49 @@ public class PlayerController : MonoBehaviour {
 
     //**UPGRADES
     public GameObject shield;
+    private float shieldSeconds=7f;
 
     //**FILE
     private string fileName;
-    FileInfo file; 
+    FileInfo file;
+
+    private float asteroidDamage=15f;
+    private float enemyShotDamage=5f;
+    private float enemyDamage=8f;
+
+    //**NEW CODE HERE
+    private ShieldController shieldController;
+    private GameController gameController;
+    private float health=100f;
+    //**SHIELD
+    //public GameObject shield;
 
 	void Start () {
+        //NEW CODE HERE
+        GameObject shieldControllerObject = GameObject.FindWithTag("ShieldController");
+        GameObject playerHealthObject = GameObject.FindWithTag("Health");
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+
+        if (gameControllerObject != null)
+        {
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+        if (playerHealthObject!=null)
+        {
+            playerHealth = playerHealthObject.GetComponent<PlayerHealth>();
+        }
+        if (shieldControllerObject != null)
+        {
+            shieldController = shieldControllerObject.GetComponent<ShieldController>();
+        }
+        
+
         fileName = "shoot";
         file = new FileInfo(Application.dataPath + "\\" + fileName + ".txt");
         LoadShot();
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 
@@ -69,8 +101,8 @@ public class PlayerController : MonoBehaviour {
             }
             else if (fireType == 2)
             {
-                Instantiate(shot, shot1Position, shotSpawn.rotation);
-                Instantiate(shot, shot2Position, shotSpawn.rotation);
+                //Instantiate(shot, shot1Position, shotSpawn.rotation);
+                //Instantiate(shot, shot2Position, shotSpawn.rotation);
             }
             else if (fireType == 3)
             {
@@ -85,7 +117,7 @@ public class PlayerController : MonoBehaviour {
                 Instantiate(shot, shot2Position, shotSpawn.rotation);
                 Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
             }
-            
+
         }
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
@@ -96,14 +128,14 @@ public class PlayerController : MonoBehaviour {
             // Move object across XY plane
             transform.Translate(touchDeltaPosition.x * movementSpeed, touchDeltaPosition.y * movementSpeed, 0);
         }
-        
+
 	}
     void FixedUpdate()
     {
-        
+
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
-        
+
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         rigidBody.velocity = movement * 6;
         rigidBody.position = new Vector2(
@@ -113,13 +145,45 @@ public class PlayerController : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.tag == "Boundary" ||
+        other.tag == "Coin" ||
+        other.tag == "DoubleShot" ||
+        other.tag == "TripleShot" ||
+        other.tag == "Shot" ||
+        other.tag == "FourShot")
+        {
+            return;
+        }
         if (other.tag == "Coin")
         {
             audioSource = GetComponent<AudioSource>();
             audioSource.Play();
         }
-        
-        
+        if(other.tag == "EnemyShot"){
+          if((health-enemyShotDamage) < 0)
+              GameOver();
+          health-=enemyShotDamage;
+          playerHealth.decreaseHealth(enemyShotDamage);
+        }
+        if(other.tag == "Enemy"){
+          if((health-enemyDamage) < 0)
+              GameOver();
+          health-=enemyDamage;
+          playerHealth.decreaseHealth(enemyDamage);
+        }
+        if(other.tag == "Asteroid"){
+            if ((health - asteroidDamage) < 0)
+                GameOver();
+          health-=asteroidDamage;
+          playerHealth.decreaseHealth(asteroidDamage);
+        }
+    }
+    void GameOver()
+    {
+        gameController.gameOverText.text = "Game Over Tap to restart";
+        gameController.GameOver();
+        Destroy(gameObject);
+        playerHealth.decreaseAll();
     }
     public void UpdateShot(int shotType)
     {
@@ -168,11 +232,26 @@ public class PlayerController : MonoBehaviour {
             else {
                 fireType = 1;
                 SaveShot(1);
-            } 
+            }
         }
         catch (Exception e)
         {
             Debug.Log(e.Message);
         }
+    }
+    public void ActivateShield()
+    {
+        //verify blue bar
+        shield.SetActive(true);
+        StartCoroutine(LateCall());
+    }
+    public void DeactivateShield()
+    {
+        shield.SetActive(false);
+    }
+    IEnumerator LateCall()
+    {
+        yield return new WaitForSeconds(shieldSeconds);
+        DeactivateShield();
     }
 }

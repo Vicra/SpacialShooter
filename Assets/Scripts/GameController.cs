@@ -30,12 +30,12 @@ public class GameController : MonoBehaviour {
 
     //**FILE
     private string fileName;
-    FileInfo file; 
+    FileInfo file;
     void Start()
     {
         hazard = hazards[UnityEngine.Random.Range(0,hazards.Length)];
         file  = new FileInfo(Application.dataPath + "\\" + "myFile.txt");
-       
+
         Load();
 
         gameOverText.text = "";
@@ -47,13 +47,14 @@ public class GameController : MonoBehaviour {
         score = 0;
         UpdateData();
     }
-    
+
     IEnumerator SpawnWaves()
     {
         yield return new WaitForSeconds(startWait);
         while (true)
         {
             hazard = hazards[UnityEngine.Random.Range(0, hazards.Length)];
+            hazard = hazards[2];
             for (int i = 0; i < hazardCount; i++)
             {
                 Vector3 spawnPosition = new Vector3(spawnValues.x, UnityEngine.Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
@@ -99,7 +100,7 @@ public class GameController : MonoBehaviour {
             }
         }
     }
-    
+
     void Save()
     {
         try
@@ -121,7 +122,7 @@ public class GameController : MonoBehaviour {
         {
             Debug.Log(e.Message);
         }
-        
+
     }
 
     void Load()

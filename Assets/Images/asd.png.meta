@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: b362acb6787cf394a9c9998144613c7c
+timeCreated: 1448851334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asd_0
+    21300002: asd_1
+    21300004: asd_2
+    21300006: asd_3
+    21300008: asd_4
+    21300010: asd_5
+    21300012: asd_6
+    21300014: asd_7
+    21300016: asd_8
+    21300018: asd_9
+    21300020: asd_10
+    21300022: asd_11
+    21300024: asd_12
+    21300026: asd_13
+    21300028: asd_14
+    21300030: asd_15
+    21300032: asd_16
+    21300034: asd_17
+    21300036: asd_18
+    21300038: asd_19
+    21300040: asd_20
+    21300042: asd_21
+    21300044: asd_22
+    21300046: asd_23
+    21300048: asd_24
+    21300050: asd_25
+    21300052: asd_26
+    21300054: asd_27
+    21300056: asd_28
+    21300058: asd_29
+    21300060: asd_30
+    21300062: asd_31
+    21300064: asd_32
+    21300066: asd_33
+    21300068: asd_34
+    21300070: asd_35
+    21300072: asd_36
+    21300074: asd_37
+    21300076: asd_38
+    21300078: asd_39
+    21300080: asd_40
+    21300082: asd_41
+    21300084: asd_42
+    21300086: asd_43
+    21300088: asd_44
+    21300090: asd_45
+    21300092: asd_46
+    21300094: asd_47
+    21300096: asd_48
+    21300098: asd_49
+    21300100: asd_50
+    21300102: asd_51
+    21300104: asd_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: asd_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 204
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 204
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 204
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 204
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 203
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 204
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 205
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_10
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 205
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 166
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 168
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 166
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 167
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 168
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 164
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_19
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 164
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_20
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 165
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_21
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 165
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_23
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 124
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 127
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_28
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 124
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_29
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 123
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_30
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 124
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 124
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 124
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_35
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 76
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 76
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_37
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_39
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 79
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_40
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 83
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_41
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 83
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 89
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_43
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 85
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_44
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 85
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_45
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 128
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_48
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 16
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_49
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 0
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_50
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 43
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_51
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 44
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: asd_52
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 45
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

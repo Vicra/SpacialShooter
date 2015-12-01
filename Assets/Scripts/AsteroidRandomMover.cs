@@ -8,7 +8,7 @@ public class AsteroidRandomMover : MonoBehaviour {
 
     private Rigidbody2D rb;
 	void Start () {
-        rawSpeed = Random.Range(2,3);
+        rawSpeed = Random.Range(2,3);   
         rb  = GetComponent<Rigidbody2D>();
         
 	}

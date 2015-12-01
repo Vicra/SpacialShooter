@@ -9,6 +9,7 @@ public class CoinController : MonoBehaviour {
     private PlayerController playerController;
     private int movement;
     public float speed;
+    public float lifeTime;
     
     // Use this for initialization
     
@@ -18,7 +19,8 @@ public class CoinController : MonoBehaviour {
 	void Start () {
         
         movement = Random.Range(0, 3);
-        Destroy(gameObject, 10);
+        if(lifeTime!= 0)
+            Destroy(gameObject, lifeTime);
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         GameObject playerControllerObject = GameObject.FindWithTag("Player");
         if (gameControllerObject != null && playerControllerObject != null)

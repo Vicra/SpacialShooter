@@ -23,4 +23,23 @@ public class ShotController : MonoBehaviour {
         }
         
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (
+            other.tag == "Boundary" ||
+            other.tag == "Coin" ||
+            other.tag == "DoubleShot" ||
+            other.tag == "TripleShot" ||
+            other.tag == "Enemy" ||
+            other.tag == "FourShot")
+        {
+            return;
+        }
+        if (gameObject.tag == "Shot" && other.tag == "Player")
+            return;
+        if ( other.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
+    }
 }
