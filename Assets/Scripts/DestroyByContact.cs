@@ -46,31 +46,35 @@ public class DestroyByContact : MonoBehaviour {
         other.tag == "Coin" ||
         other.tag == "DoubleShot" ||
         other.tag == "TripleShot" ||
+        other.tag == "EnemyShot" ||
+        other.tag == "Asteroid" ||
+        other.tag == "Enemy" ||
         other.tag == "FourShot")
         {
             return;
         }
-        camShake.Shake();
-        for (int i = 0; i < randomCoins; i++)
+        if (other.tag == "ShotController")
         {
-            Instantiate(coin, transform.position, transform.rotation);
+            Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
-        if(randomCoins == 1)
+        if(other.tag == "Asteroid")
+            camShake.Shake();
+        
+        if (other.tag == "Shot")
         {
-            randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
-            Instantiate(randomUpgrade, transform.position, transform.rotation);
-        }
-
-
-        if (other.tag == "Player")
-        {
-            //gameController.gameOverText.text = "Game Over Press R to restart";
-            //gameController.GameOver();
-
+            if (randomCoins == 1)
+            {
+                randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
+                Instantiate(randomUpgrade, transform.position, transform.rotation);
+            }
+            for (int i = 0; i < randomCoins; i++)
+            {
+                Instantiate(coin, transform.position, transform.rotation);
+            }
+            gameController.AddScore(scoreValue);
         }
         Instantiate(explosion, transform.position, transform.rotation);
-        gameController.AddScore(scoreValue);
-        //Destroy(other.gameObject);
         Destroy(gameObject);
     }
 }

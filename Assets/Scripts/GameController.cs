@@ -54,13 +54,15 @@ public class GameController : MonoBehaviour {
         while (true)
         {
             hazard = hazards[UnityEngine.Random.Range(0, hazards.Length)];
-            hazard = hazards[2];
+            
             for (int i = 0; i < hazardCount; i++)
             {
-                Vector3 spawnPosition = new Vector3(spawnValues.x, UnityEngine.Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
+                Vector3 spawnPosition = 
+                    new Vector3(spawnValues.x, UnityEngine.Random.Range(-spawnValues.y, spawnValues.y), spawnValues.z);
                 Instantiate(hazard, spawnPosition, transform.rotation);
                 yield return new WaitForSeconds(spawnWait);
             }
+            hazardCount++;
             yield return new WaitForSeconds(waveWait);
             if (gameOver)
             {
@@ -87,6 +89,7 @@ public class GameController : MonoBehaviour {
     }
     public void GameOver()
     {
+        Handheld.Vibrate(); 
         gameOver = true;
         Save();
     }

@@ -49,12 +49,14 @@
      <Compile Include="Assets\Scripts\AsteroidRandomPosition.cs" />
      <Compile Include="Assets\Scripts\CoinController.cs" />
      <Compile Include="Assets\Scripts\Coins.cs" />
+     <Compile Include="Assets\Scripts\DamagedFlash.cs" />
      <Compile Include="Assets\Scripts\DestroyBoundary.cs" />
      <Compile Include="Assets\Scripts\DestroyByContact.cs" />
      <Compile Include="Assets\Scripts\DestroyByTime.cs" />
      <Compile Include="Assets\Scripts\DoubleShotsController.cs" />
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\FlashBang.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LoadOnClick.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
@@ -68,6 +70,7 @@
      <Compile Include="Assets\Scripts\ShieldBar.cs" />
      <Compile Include="Assets\Scripts\ShieldController.cs" />
      <Compile Include="Assets\Scripts\ShotController.cs" />
+     <Compile Include="Assets\Scripts\ShotSpawn.cs" />
      <Compile Include="Assets\Scripts\UpgradeController.cs" />
      <Compile Include="Assets\Scripts\WreckingBall.cs" />
      <Compile Include="Assets\Scripts\cameraShake.cs" />

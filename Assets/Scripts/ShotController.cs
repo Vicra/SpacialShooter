@@ -35,6 +35,10 @@ public class ShotController : MonoBehaviour {
         {
             return;
         }
+        if (other.tag == "ShieldController" && gameObject.tag == "EnemyShot")
+        {
+            Destroy(gameObject);
+        }
         if (gameObject.tag == "Shot" && other.tag == "Player")
             return;
         if ( other.tag == "Player")

@@ -51,24 +51,23 @@ public class EnemyController : MonoBehaviour {
                 break;
         }
 	}
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "EnemyShot"  || 
-            other.tag == "Boundary"   || 
-            other.tag == "Coin"       || 
-            other.tag == "DoubleShot" || 
-            other.tag == "TripleShot" ||
-            other.tag == "Enemy"      || 
-            other.tag == "FourShot")
-        {
-            return;
-        }
-        if (other.tag == "Shot" || other.tag == "Player")
-        {
-           
-            Destroy(gameObject);
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.tag == "EnemyShot"  || 
+    //        other.tag == "Boundary"   || 
+    //        other.tag == "Coin"       || 
+    //        other.tag == "DoubleShot" || 
+    //        other.tag == "TripleShot" ||
+    //        other.tag == "Enemy"      || 
+    //        other.tag == "FourShot")
+    //    {
+    //        return;
+    //    }
+    //    if (other.tag == "Shot" || other.tag == "Player")
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
     private void MoveLeft()
     {
         transform.position += new Vector3(-movementSpeed, 0, 0);

@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour {
     //**NEW CODE HERE
     private ShieldController shieldController;
     private GameController gameController;
+    private ShotSpawn shotSpawnController;
     private float health=100f;
     //**SHIELD
     //public GameObject shield;
@@ -62,6 +63,7 @@ public class PlayerController : MonoBehaviour {
         GameObject shieldControllerObject = GameObject.FindWithTag("ShieldController");
         GameObject playerHealthObject = GameObject.FindWithTag("Health");
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+        GameObject shotSpawnObject = GameObject.FindWithTag("ShotSpawn");
 
         if (gameControllerObject != null)
         {
@@ -75,7 +77,11 @@ public class PlayerController : MonoBehaviour {
         {
             shieldController = shieldControllerObject.GetComponent<ShieldController>();
         }
-        
+        if (shotSpawnObject != null)
+        {
+            shotSpawnController = shotSpawnObject.GetComponent<ShotSpawn>();
+        }
+
 
         fileName = "shoot";
         file = new FileInfo(Application.dataPath + "\\" + fileName + ".txt");
@@ -101,14 +107,16 @@ public class PlayerController : MonoBehaviour {
             }
             else if (fireType == 2)
             {
-                //Instantiate(shot, shot1Position, shotSpawn.rotation);
-                //Instantiate(shot, shot2Position, shotSpawn.rotation);
+                Instantiate(shot, shot1Position, shotSpawn.rotation);
+                Instantiate(shot, shot2Position, shotSpawn.rotation);
             }
             else if (fireType == 3)
             {
+
                 Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
                 Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
                 Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
+
             }
             else if (fireType == 4)
             {
@@ -117,7 +125,7 @@ public class PlayerController : MonoBehaviour {
                 Instantiate(shot, shot2Position, shotSpawn.rotation);
                 Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
             }
-
+            //shotSpawnController.PlayAudio();
         }
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
@@ -253,5 +261,9 @@ public class PlayerController : MonoBehaviour {
     {
         yield return new WaitForSeconds(shieldSeconds);
         DeactivateShield();
+    }
+    public void IncreaseHealth(float life)
+    {
+        playerHealth.increaseHealth(life);
     }
 }
