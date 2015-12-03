@@ -28,6 +28,12 @@ public class GameController : MonoBehaviour {
     private bool restart;
     private bool gameOver;
 
+    private ShotController shotController;
+
+    private int first;
+    private int second;
+    private int third;
+
     //**FILE
     private string fileName;
     FileInfo file;
@@ -36,11 +42,12 @@ public class GameController : MonoBehaviour {
         hazard = hazards[UnityEngine.Random.Range(0,hazards.Length)];
         file  = new FileInfo(Application.dataPath + "\\" + "myFile.txt");
 
-        Load();
+        //Load();
+        coins = PlayerPrefs.GetInt("Coins");
 
         gameOverText.text = "";
         gameOver = false;
-        restart = true;
+        restart = false;
         StartCoroutine(SpawnWaves());
         audioSource = GetComponent<AudioSource>();
         audioSource.Play();
@@ -91,7 +98,9 @@ public class GameController : MonoBehaviour {
     {
         Handheld.Vibrate(); 
         gameOver = true;
-        Save();
+        PlayerPrefs.SetInt("Coins",coins);
+        EnterScore(score);
+
     }
     void Update()
     {
@@ -149,5 +158,40 @@ public class GameController : MonoBehaviour {
         {
             Debug.Log(e.Message);
         }
+    }
+    void LoadScores()
+    {
+        if (PlayerPrefs.HasKey("First"))
+            first = PlayerPrefs.GetInt("First");
+        if (PlayerPrefs.HasKey("Second"))
+            second = PlayerPrefs.GetInt("Second");
+        if (PlayerPrefs.HasKey("Third"))
+            third = PlayerPrefs.GetInt("Third");
+    }
+    void SaveScore()
+    {
+        PlayerPrefs.SetInt("First", first);
+        PlayerPrefs.SetInt("Second", second);
+        PlayerPrefs.SetInt("Third", third);
+    }
+    public void EnterScore(int score)
+    {
+        LoadScores();
+        if (score > first)
+        {
+            third = second;
+            second = first;
+            first = score;
+        }
+        else if (score > second)
+        {
+            third = second;
+            second = score;
+        }
+        else if (score > third)
+        {
+            third = score;
+        } 
+        SaveScore();
     }
 }

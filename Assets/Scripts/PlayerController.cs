@@ -38,6 +38,9 @@ public class PlayerController : MonoBehaviour {
     private float nextFire;
     private int fireType;
 
+    private int loadedFireType;
+    private int temporalFireType;
+
     //**UPGRADES
     public GameObject shield;
     private float shieldSeconds=7f;
@@ -57,6 +60,7 @@ public class PlayerController : MonoBehaviour {
     private float health=100f;
     //**SHIELD
     //public GameObject shield;
+    private cameraShake camShake;
 
 	void Start () {
         //NEW CODE HERE
@@ -64,10 +68,14 @@ public class PlayerController : MonoBehaviour {
         GameObject playerHealthObject = GameObject.FindWithTag("Health");
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
         GameObject shotSpawnObject = GameObject.FindWithTag("ShotSpawn");
+        GameObject camShakeControllerObject =
+          GameObject.FindWithTag("MainCamera");
 
         if (gameControllerObject != null)
         {
             gameController = gameControllerObject.GetComponent<GameController>();
+            camShake =
+              camShakeControllerObject.GetComponent<cameraShake>();
         }
         if (playerHealthObject!=null)
         {
@@ -84,8 +92,19 @@ public class PlayerController : MonoBehaviour {
 
 
         fileName = "shoot";
-        file = new FileInfo(Application.dataPath + "\\" + fileName + ".txt");
-        LoadShot();
+        file = new FileInfo(Application.persistentDataPath + "\\" + fileName + ".txt");
+        //LoadShot();
+        if (PlayerPrefs.HasKey("Shot"))
+        {
+            loadedFireType = PlayerPrefs.GetInt("Shot");
+        }
+        else
+        {
+            loadedFireType = 1;
+        }
+            
+
+        fireType = loadedFireType;
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
 	}
 
@@ -97,36 +116,44 @@ public class PlayerController : MonoBehaviour {
         shotUpPosition= new Vector3(shotSpawn.position.x, shotSpawn.position.y + 0.3f, shotSpawn.position.z);
         shotDownPosition = new Vector3(shotSpawn.position.x, shotSpawn.position.y - 0.3f, shotSpawn.position.z);
 
-
-        if (Time.time > nextFire)
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKey(KeyCode.Alpha1))
         {
-            nextFire = Time.time + fireRate;
-            if (fireType == 1)
+            if (Time.time > nextFire)
             {
-                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-            }
-            else if (fireType == 2)
-            {
-                Instantiate(shot, shot1Position, shotSpawn.rotation);
-                Instantiate(shot, shot2Position, shotSpawn.rotation);
-            }
-            else if (fireType == 3)
-            {
+                nextFire = Time.time + fireRate;
+                if (fireType == 1)
+                {
+                    Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+                }
+                else if (fireType == 2)
+                {
+                    Instantiate(shot, shot1Position, shotSpawn.rotation);
+                    Instantiate(shot, shot2Position, shotSpawn.rotation);
+                }
+                else if (fireType == 3)
+                {
 
-                Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
-                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-                Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
+                    Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
+                    Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+                    Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
 
+                }
+                else if (fireType == 4)
+                {
+                    Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
+                    Instantiate(shot, shot1Position, shotSpawn.rotation);
+                    Instantiate(shot, shot2Position, shotSpawn.rotation);
+                    Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
+                }
+                //shotSpawnController.PlayAudio();
             }
-            else if (fireType == 4)
-            {
-                Instantiate(upShot, shotUpPosition, shotSpawn.rotation);
-                Instantiate(shot, shot1Position, shotSpawn.rotation);
-                Instantiate(shot, shot2Position, shotSpawn.rotation);
-                Instantiate(downShot, shotDownPosition, shotSpawn.rotation);
-            }
-            //shotSpawnController.PlayAudio();
+
         }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            ActivateShield();
+        }
+        
 
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
@@ -154,7 +181,6 @@ public class PlayerController : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Boundary" ||
-        other.tag == "Coin" ||
         other.tag == "DoubleShot" ||
         other.tag == "TripleShot" ||
         other.tag == "Shot" ||
@@ -164,6 +190,7 @@ public class PlayerController : MonoBehaviour {
         }
         if (other.tag == "Coin")
         {
+
             audioSource = GetComponent<AudioSource>();
             audioSource.Play();
         }
@@ -178,12 +205,14 @@ public class PlayerController : MonoBehaviour {
               GameOver();
           health-=enemyDamage;
           playerHealth.decreaseHealth(enemyDamage);
+          camShake.Shake();
         }
         if(other.tag == "Asteroid"){
             if ((health - asteroidDamage) < 0)
                 GameOver();
           health-=asteroidDamage;
           playerHealth.decreaseHealth(asteroidDamage);
+          camShake.Shake();
         }
     }
     void GameOver()
@@ -192,10 +221,17 @@ public class PlayerController : MonoBehaviour {
         gameController.GameOver();
         Destroy(gameObject);
         playerHealth.decreaseAll();
+        
     }
     public void UpdateShot(int shotType)
     {
         fireType = shotType;
+        StartCoroutine(LateCallShot());
+    }
+    IEnumerator LateCallShot()
+    {
+        yield return new WaitForSeconds(10);
+        fireType = loadedFireType;
     }
 
     void AddShield()
@@ -232,7 +268,7 @@ public class PlayerController : MonoBehaviour {
         {
             if (file.Exists)
             {
-                StreamReader reader = File.OpenText(Application.dataPath + "\\" + fileName + ".txt");
+                StreamReader reader = File.OpenText(Application.persistentDataPath + "\\" + fileName + ".txt");
                 string savedFireType = reader.ReadLine();
                 fireType = Int32.Parse(savedFireType);
                 reader.Close();
@@ -264,6 +300,7 @@ public class PlayerController : MonoBehaviour {
     }
     public void IncreaseHealth(float life)
     {
+        health += life;
         playerHealth.increaseHealth(life);
     }
 }

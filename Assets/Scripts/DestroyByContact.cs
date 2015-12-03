@@ -15,7 +15,7 @@ public class DestroyByContact : MonoBehaviour {
     //new code
     public GameObject[] upgrades; // shot upgrades, shield
     private GameObject randomUpgrade;
-    private cameraShake camShake;
+    
     void Start()
     {
         //adding new code
@@ -24,14 +24,12 @@ public class DestroyByContact : MonoBehaviour {
         randomCoins = Random.Range(0, 4);
         GameObject gameControllerObject =
           GameObject.FindWithTag("GameController");
-        GameObject camShakeControllerObject =
-          GameObject.FindWithTag("MainCamera");
+        
         if (gameControllerObject != null)
         {
             gameController =
               gameControllerObject.GetComponent<GameController>();
-            camShake =
-              camShakeControllerObject.GetComponent<cameraShake>();
+            
 
         }
         if (gameControllerObject == null)
@@ -49,6 +47,7 @@ public class DestroyByContact : MonoBehaviour {
         other.tag == "EnemyShot" ||
         other.tag == "Asteroid" ||
         other.tag == "Enemy" ||
+        other.tag == "IncreaseLife" ||
         other.tag == "FourShot")
         {
             return;
@@ -58,12 +57,10 @@ public class DestroyByContact : MonoBehaviour {
             Instantiate(explosion, transform.position, transform.rotation);
             Destroy(gameObject);
         }
-        if(other.tag == "Asteroid")
-            camShake.Shake();
         
         if (other.tag == "Shot")
         {
-            if (randomCoins == 1)
+            if (randomCoins == 0)
             {
                 randomUpgrade = upgrades[Random.Range(0, upgrades.Length)];
                 Instantiate(randomUpgrade, transform.position, transform.rotation);

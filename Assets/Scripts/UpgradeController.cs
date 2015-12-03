@@ -12,7 +12,14 @@ public class UpgradeController : MonoBehaviour {
     private int coins;
 	void Start () {
         file = new FileInfo(Application.dataPath + "\\" + "myFile.txt");
-        Load();
+        //Load();
+        if(PlayerPrefs.HasKey("Coins"))
+            coins = PlayerPrefs.GetInt("Coins");
+        else
+        {
+            coins = 0;
+        }
+        
         coinsText.text ="Coins: " + coins.ToString();
 	}
 	

@@ -32,9 +32,9 @@ public class CoinController : MonoBehaviour {
         if (movement == 0)
             transform.Translate(-speed, 0, 0);
         else if (movement == 1)
-            transform.Translate(-speed / 2.5f, -speed / 2f, 0);
+            transform.Translate(-speed / 2f, -speed / 2.5f, 0);
         else
-            transform.Translate(-speed / 2.5f, speed / 2f, 0);
+            transform.Translate(-speed / 2f, speed / 2.5f, 0);
 	}
     void OnTriggerEnter2D(Collider2D other)
     {

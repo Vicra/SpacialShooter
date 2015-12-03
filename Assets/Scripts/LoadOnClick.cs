@@ -10,7 +10,7 @@ public class LoadOnClick : MonoBehaviour
     private GameController gameController;
     private PlayerController playerController;
     int coins;
-    int doubleShotCost = 20;
+    int doubleShotCost = 6;
     int tripleShotCost = 1000;
     int cuadShotCost = 2000;
     FileInfo file;
@@ -42,26 +42,32 @@ public class LoadOnClick : MonoBehaviour
     }
     public void PurchaseUpgrade(int shots)
     {
-        Load();
+        //Load();
+        if(PlayerPrefs.HasKey("Coins"))
+            coins = PlayerPrefs.GetInt("Coins");
+        coins = 0;
         if (shots == 2 && coins >= doubleShotCost)
         {
             coins -= doubleShotCost;
-            SaveShot(2);
+            PlayerPrefs.SetInt("Shot",2);
+            //SaveShot(2);
             purchasedText.text = "Successfully purchased double shots";
         }
         else if (shots == 3 && coins >= tripleShotCost)
         {
             coins -= tripleShotCost;
-            SaveShot(3);
+            //SaveShot(3);
+            PlayerPrefs.SetInt("Shot", 3);
             purchasedText.text = "Successfully purchased triple shots";
         }
         else if (shots == 4 && coins >= cuadShotCost)
         {
             coins -= cuadShotCost;
-            SaveShot(4);
+            PlayerPrefs.SetInt("Shot", 4);
+            //SaveShot(4);
             purchasedText.text = "Successfully purchased cuad shots";
         }
-        Save();
+        //Save();
     }
     void Save()
     {
